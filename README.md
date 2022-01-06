@@ -6,4 +6,4 @@
   >2. В файл <b>Config.in</b> каталога <b>package</b> внести запись -</br>
   ><i>source "package/revise/Config.in"</i>
   >3. Для интеграции пакета необходимо включить библиотеки <b>libcurl</b> и <b>rapidjson</b> в</br>
-  >настройках make <b>nconfig</b>
+  >настройках <b>make nconfig</b>
