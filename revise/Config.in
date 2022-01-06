@@ -1,0 +1,8 @@
+config BR2_PACKAGE_REVISE
+        bool "revise"
+        depends on BR2_PACKAGE_LIBCURL
+        depends on BR2_PACKAGE_RAPIDJSON
+        help
+          This is a comment that explains what revise is.
+
+          http://example.com
