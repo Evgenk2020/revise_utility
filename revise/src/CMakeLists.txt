@@ -17,5 +17,4 @@ add_executable(revise main.cpp
 	help.h help.cpp
 	keys.h)
 
-install (TARGETS revise
-	DESTINATION ${CMAKE_INSTALL_DIR})
+install (TARGETS revise DESTINATION ${CMAKE_INSTALL_DIR})
